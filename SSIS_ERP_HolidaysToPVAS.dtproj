@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">BCCIT163L</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAiYLSsgYIdUqm4I9IBEknKgAAAAACAAAAAAADZgAAwAAAABAAAAD9ynIBcCEEkhznPx0i7mwNAAAAAASAAACgAAAAEAAAAHQK5lY/IK03rRhdUQxtqi6IAAAA4BlcP9wmCeyh2B/HYsF1A48LPfFqh58cAaxpgKKL53AG9CTscNAMc8OxYgEyWRI6utGkl6S+5cXqDd2NWN7U388M9IeS+149u3N2HtIPoxgXcmSJrA011UHfgzeUIfU1hH1wXSZPm7Zqv5ka+2UD7yOspPTSJgBRq79edWgg9romI1HlvnDcahQAAABOW20kTytD8GnNS1SZN1gESefZZA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA156e/GOiBkqUoZ44nX6fsQAAAAACAAAAAAADZgAAwAAAABAAAABe4AJaXTUym/VEAsn7L/VdAAAAAASAAACgAAAAEAAAAD1F8lsDBsUNrAcYiq5mSR2IAAAAWcJ+InaKrYf8q9VAi01rGmNRiosBU3BiiuaFkfpLnyfS9x93o7YNt1EK8PBKkzgXffOEU2wYHxnfUC0m303JX+0eYNfCHxHbZpRuu6SDNifc1jypPRPQg5tw6O9Xmntci61utFBB4B6BHR+x253pvVUU38GHQGTnzx0huAnF6hASWHJ8QgIk1BQAAADFZ6felida+tDI0Uda9uie82LROw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">SSIS_PushHolidaysFromERP</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">14</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{F61C0C1A-7607-415D-A4E9-E0B2DD38F0B4}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{48F37F68-6334-4F2C-9585-7FA65C0B99E0}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -78,7 +78,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=BCCSQL22A;Initial Catalog=PavingAssessment;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=BCCSQL22A;Initial Catalog=PavingAssessment;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-SSIS_PushHolidaysFromERP-{53128858-3EA2-4851-A91A-91F4D99C28AD}BCCSQL22A.PavingAssessment;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
